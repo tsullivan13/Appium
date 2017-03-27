@@ -29,7 +29,7 @@ public class Scroll extends AbstractTest {
 		Thread.sleep(3000);
 	}
 	
-	public static void scrollToElement(AndroidDriver<MobileElement> driver, MobileElement journalCoverImage, boolean scrollDown){
+	public static void scrollToElement(AndroidDriver<MobileElement> driver, MobileElement {ELEMENTNAME}, boolean scrollDown){
 		String listID = ((RemoteWebElement) driver.findElementByAndroidUIAutomator("new UiSelector().class(\"android.widget.ImageView\")")).getId();
 		//Object first_textview = find_element(UiAutomator, new UiSelector().className("android.widget.TextView").instance(0));
 		String direction;
